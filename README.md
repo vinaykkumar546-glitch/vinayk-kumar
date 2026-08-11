@@ -1,2 +1,2 @@
 # vinayk-kumar
-how to create new website 
+created first website 
