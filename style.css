@@ -401,66 +401,49 @@ section {
     transform: translateY(-3px);
 }
 
-/* ================================
-   PROJECTS
-   ================================ */
+/* PROJECT DETAILS */
 
-.projects {
-    display: grid;
-
-    grid-template-columns:
-        repeat(auto-fit, minmax(280px, 1fr));
-
-    gap: 25px;
+.project-details {
+    margin-top: 20px;
+    text-align: left;
 }
 
-.project {
-    overflow: hidden;
-
-    border-radius: 18px;
-
-    background: #111624;
-
-    border: 1px solid rgba(255,255,255,0.08);
-
-    transition: 0.35s;
+.project-details h4 {
+    margin-top: 18px;
+    margin-bottom: 8px;
+    color: #7c6cff;
+    font-size: 16px;
 }
 
-.project:hover {
-    transform: translateY(-7px);
-
-    box-shadow:
-        0 20px 50px rgba(0,0,0,0.4);
+.project-details p {
+    line-height: 1.7;
 }
 
-.project img {
-    width: 100%;
-
-    height: 220px;
-
-    object-fit: cover;
-
-    transition: 0.5s;
+.project-details ul {
+    padding-left: 20px;
+    line-height: 1.8;
 }
 
-.project:hover img {
-    transform: scale(1.05);
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
-.project-content {
-    padding: 25px;
+.project-tech span {
+    background: rgba(124, 108, 255, 0.15);
+    color: #7c6cff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
 }
 
-.project-content h3 {
-    margin-bottom: 10px;
-}
-
-.project-content p {
-    color: #989eaf;
-
-    font-size: 14px;
-
-    margin-bottom: 18px;
+.project-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 25px;
 }
 
 /* ================================
